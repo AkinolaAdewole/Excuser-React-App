@@ -1,0 +1,45 @@
+/* @media only screen and (max-width: 768px){ */
+
+.bg{
+  background-image:url('https://source.unsplash.com/1600x900/?landscape') ;
+}
+
+.disp{
+  height: 300px;
+  width: 700px;
+  margin-left: 300px;
+}
+
+
+.color {
+    color: red;
+    animation-duration: 20s;
+    animation-delay: 4s;
+    animation-iteration-count:8;
+    animation-name: colr;
+  }
+  
+  @keyframes colr{
+    20%{
+      color:blue;
+    }
+    
+    40%{
+      color:blueviolet;
+    }
+
+    60%{
+      color: black;
+    }
+    
+    
+    80%{
+      color:green;
+    }
+    
+    100%{
+      color:orange;
+    }
+    
+   
+  }
